@@ -6,4 +6,4 @@ services:
     volumes:
       - ./data:/dashboard/data
     ports:
-      - nz_port:nz_port
+      - 127.0.0.1:nz_port:nz_port
