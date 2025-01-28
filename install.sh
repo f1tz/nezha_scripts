@@ -228,7 +228,7 @@ init() {
     fi
 
     if [ -n "$CUSTOM_MIRROR" ]; then
-        GITHUB_RAW_URL="gitee.com/naibahq/scripts/raw/main"
+        GITHUB_RAW_URL="gitee.com/f1tz/nezha_scripts/raw/main"
         GITHUB_URL=$CUSTOM_MIRROR
         Docker_IMG="registry.cn-shanghai.aliyuncs.com\/naibahq\/nezha-dashboard"
     else
